@@ -2,7 +2,7 @@
 
 This simple repo shows how to create an attracive and responsive Drop-down navidation bar using plain HTML5 and CSS3
 
-![ScreenShot](https://raw.github.com/Patwan/currency-converter-app-in-JavaScript/master/screenshot.png)
+![ScreenShot](https://raw.github.com/Patwan/currency-converter-app-in-JavaScript/master/screenshot.jpg)
 
 
 ## License
