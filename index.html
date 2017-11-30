@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name= "author" content= "Martin Njogu Ndungu">
+	<!-- Link to Bootstrap4 CSS file-->
+	<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title> Currency Converter App in JavaScript</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mx-auto">
+				<div class="card bg-primary text-white mt-5 p-4">
+					<h1> Currency Converter </h1>
+					<p> Enter amount to convert</p>
+					<input type="text" class="form-control form-control-lg" id="Input" placeholder="Enter amount...">
+					<br>
+					<p id="errors"> </p>
+				</div>
+
+				<div id="output">
+          <div class="card card-success mt-2">
+            <div class="card-block text-white">
+              <h4> Sterling Coins :</h4>
+              <div id="sterling"></div>
+            </div>
+          </div>    
+        </div>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"> </script>
+</body>
+</html>
